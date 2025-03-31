@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassAppHub - 개발 블로그</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 로딩 스피너 -->
+    <div class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- 다크 모드 토글 -->
+    <button class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- 헤더 -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="logo">ClassAppHub</a>
+            <nav>
+                <a href="#blog">블로그</a>
+                <a href="#apps">앱 개발</a>
+                <a href="#about">소개</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인 컨텐츠 -->
+    <main class="main-content">
+        <!-- 히어로 섹션 -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">개발자의 기술 블로그</h1>
+                <p class="hero-subtitle">앱 개발과 기술 이야기를 공유합니다</p>
+            </div>
+        </section>
+
+        <!-- 블로그 섹션 -->
+        <section class="blog-section" id="blog">
+            <h2 class="section-title">최근 블로그 포스트</h2>
+            <div class="blog-container">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="블로그 이미지">
+                    </div>
+                    <div class="blog-content">
+                        <h3>안드로이드 앱 개발 시작하기</h3>
+                        <p class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 2024-03-29</span>
+                            <span><i class="far fa-folder"></i> 안드로이드</span>
+                        </p>
+                        <p class="blog-excerpt">안드로이드 앱 개발을 시작하는 방법과 필요한 도구들을 소개합니다.</p>
+                        <a href="#" class="read-more">더 읽기</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="블로그 이미지">
+                    </div>
+                    <div class="blog-content">
+                        <h3>iOS 앱 개발 기초</h3>
+                        <p class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 2024-03-28</span>
+                            <span><i class="far fa-folder"></i> iOS</span>
+                        </p>
+                        <p class="blog-excerpt">iOS 앱 개발의 기본 개념과 Swift 프로그래밍 언어에 대해 알아봅니다.</p>
+                        <a href="#" class="read-more">더 읽기</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 앱 개발 섹션 -->
+        <section class="apps-section" id="apps">
+            <h2 class="section-title">앱 개발 프로젝트</h2>
+            <div class="apps-container">
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="https://via.placeholder.com/300x200" alt="앱 이미지">
+                    </div>
+                    <div class="app-content">
+                        <h3>학습 관리 앱</h3>
+                        <p>학생들을 위한 학습 관리 애플리케이션</p>
+                        <div class="app-tags">
+                            <span>Android</span>
+                            <span>Kotlin</span>
+                            <span>Firebase</span>
+                        </div>
+                        <a href="#" class="view-project">프로젝트 보기</a>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="https://via.placeholder.com/300x200" alt="앱 이미지">
+                    </div>
+                    <div class="app-content">
+                        <h3>일정 관리 앱</h3>
+                        <p>효율적인 일정 관리를 위한 애플리케이션</p>
+                        <div class="app-tags">
+                            <span>iOS</span>
+                            <span>Swift</span>
+                            <span>CoreData</span>
+                        </div>
+                        <a href="#" class="view-project">프로젝트 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 소개 섹션 -->
+        <section class="about-section" id="about">
+            <h2 class="section-title">소개</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <p>안녕하세요! 저는 모바일 앱 개발자입니다. 
+                    이 블로그에서는 앱 개발과 관련된 기술적인 내용과 
+                    개발 과정에서 얻은 경험을 공유합니다.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ClassAppHub</h3>
+                    <p>개발자의 기술 블로그</p>
+                </div>
+                <div class="footer-section">
+                    <h3>링크</h3>
+                    <ul>
+                        <li><a href="#blog">블로그</a></li>
+                        <li><a href="#apps">앱 개발</a></li>
+                        <li><a href="#about">소개</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ClassAppHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript 파일 연결 -->
+    <script src="script.js"></script>
+</body>
+</html> 
